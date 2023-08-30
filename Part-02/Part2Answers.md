@@ -50,16 +50,17 @@ git uses visual markers within the file to show which parts of the source code c
 	>>>>>>> <anotherBrach>
 
 ## 7.	What are the steps you can take to resolve Git conflicts?
-TODO
+Use git status to see what files have conflicts, then go into those files and edit them to remove the conflicts. Alternatively the graphical interface can allow the user to choose one of the files to retain.
+
 
 ## 8.	What does git revert do, and how can you use it?
-TODO
+It can be used to emulate an undo on a specified commit. It does this by working out what changes need applied proactively and creates the changes needed to apply to restore the state.
 
 ## 9.	What does git reset do, and how can you use it? 
-TODO
+Git will actually roll the change pointer back, so allows a commit to be undone. This destroys history.
 
 ## 10.	What is the difference between git revert and git reset?
-TODO
+reset will destroy history, whereas revert will preserve history
 
 ## 11.	True or False: It is okay to commit broken code to the main branch.
 False
