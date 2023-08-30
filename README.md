@@ -3,8 +3,6 @@ Assessment one for Object Oriented Programming skills Term 2, Cert IV Game devel
 
 David Kalnins
 
-Second part of the conflict test
-
 ## Table of Contents
 
 * [Part 1](./Part-01/Part1Answers.md)

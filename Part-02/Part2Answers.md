@@ -35,11 +35,19 @@ David Kalnins
 ## 6.	In a merged source code file, how does Git let you know there is a conflict?
 git uses visual markers within the file to show which parts of the source code conflict
 
-	<<<<<<< <branch name>
+
+	<<<<<<< HEAD
+	Second part of the conflict test
+	=======
+	Adding a line here to create a conflict
+	>>>>>>> createconflict
+
+
+	<<<<<<< <branchName>
 	conflicting changes on the branch we are merging into
 	=======
 	changes in the brance we are merging from
-	>>>>>>> 
+	>>>>>>> <anotherBrach>
 
 ## 7.	What are the steps you can take to resolve Git conflicts?
 TODO
